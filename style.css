@@ -1,0 +1,117 @@
+body{ 
+    background: #fafddefa;
+}
+
+.titulo{
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+    background: #f2f5da;
+    font-family: math;
+    margin: 10px;
+    margin-left: 13em;
+    margin-right: 13em;
+    font-weight: 600;
+    border: solid;
+    border-style: hidden;
+    border-radius: 4px;
+    
+}
+
+
+.menu{ 
+
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao_container{
+    background: #f2f6d0;
+
+}
+
+.botao,.botao_reset{
+    margin: 1em;
+    width: 10em;
+    background: #fff5a7;
+    border-style: hidden;
+    border-radius: 3px;
+    font-size: large;
+
+}
+
+.botao:hover,.botao_reset:hover{
+
+    background:#e8c23f;
+    color:white;
+
+}
+
+.coeficientes_container{
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    background: #fff8c3;
+
+    border: solid;
+    border-radius: 10px;
+    border-style: none;
+    padding: inherit;
+} 
+
+
+
+.input_coeficiente{ 
+
+    align-items: center;
+    display: flex;
+}
+
+.resultados{ 
+
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    gap:5px;
+}
+.a,.b,.c{
+    width: 2em;
+}
+
+
+
+.polinomio{
+
+    font-style: italic;
+    font-size: 1.7em;
+    border-style: double;
+    padding: 5px;
+    font-weight: 700;
+    background: beige;
+}
+
+.info_raiz{
+    font-weight: bold;
+    font-size: large;
+}
+
+.sem_raiz_real{
+    color: crimson;
+    font-size: large;
+}
+
+.com_raiz_real{
+    color: rgb(42, 103, 216);
+    font-size: large;
+}
+
+
+.unica_raiz{
+    color:rgb(44, 185, 138);
+    font-size: large;
+}
+
