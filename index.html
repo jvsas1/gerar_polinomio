@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Gerador de função</title>
+</head>
+<body> 
+       <div class="cabeçalho"> 
+
+    
+        <h1 class="titulo">Monte sua função!</h1>
+       </div>
+
+       <div class="menu"> 
+            <div class="botao_container">
+                <button class="botao">Gerar função</button>  
+                <button class="botao_reset">Limpar dados</button> 
+            </div>  
+
+            <div class="coeficientes_container">
+
+               <div class="input_coeficiente">
+                    <p>Insira o coeficiente 'a':</p>
+                    <input class="a" id="valor1" type="text">
+                </div> 
+                
+                <div class="input_coeficiente"> 
+                    <p>Insira o coeficiente 'b':</p>   
+                    <input class="b" id="valor2" type="text">
+                </div>   
+                
+                <div class="input_coeficiente">
+                    <p>Insira o coeficiente 'c':</p>
+                    <input class="c" id="valor3" type="text">
+                </div>  
+           </div>
+       </div>
+
+       <div class="resultados"> 
+
+            <p class="polinomio" id="função"></p>
+
+            <p class="info_raiz" id="condição_raiz"></p>
+
+            <p id="raiz1"></p>
+            <p id="raiz2"></p>
+       </div> 
+
+
+
+       <script src="botao_gerar.js"></script> 
+       <script src="botao_reset.js"></script>
+
+
+</body>
+</html>
